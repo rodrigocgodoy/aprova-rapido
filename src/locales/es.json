@@ -2,6 +2,15 @@
   "pages": {
     "home": {
       "title": "Espanhol"
+    },
+    "header": {
+      "nav": {
+        "home": "Ínicio",
+        "about-me": "Quienes somos",
+        "plans": "Planes",
+        "contact-us": "Hable con nosotros",
+        "enter": "Entrar"
+      }
     }
   }
 }
