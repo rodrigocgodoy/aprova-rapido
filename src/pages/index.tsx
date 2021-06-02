@@ -5,8 +5,8 @@ export default function Home() {
   const t = useTranslations('pages');
   
   return (
-    <div>
-      <span>{t('home.title')}</span>
+    <div className="container mx-auto">
+      <span className="text-custom">{t('home.title')}</span>
     </div>
   )
 }
