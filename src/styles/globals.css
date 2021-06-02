@@ -3,7 +3,37 @@
 @tailwind utilities;
 
 @layer components {
-  .text-custom {
-    @apply text-9xl font-bold;
+  body {
+    @apply bg-white;
+  }
+  .header {
+    @apply container mx-auto h-20 flex items-center justify-between;
+  }
+
+  .header a {
+    color: #526B90;
+    @apply mx-2.5;
+  }
+
+  .header a:last-of-type {
+    @apply mr-5;
+  }
+
+  .header a:hover,
+  .header a.active {
+    @apply font-bold;
+  }
+
+  .btn {
+    @apply border-0 h-11 px-11 rounded-md text-white text-base;
+  }
+  .btn-primary {
+    background: #252160;
+  }
+
+  .section-intro {
+    height: calc(100vh - 5rem);
+    background-color: #252160;
+    @apply bg-center bg-hero bg-cover bg-no-repeat;
   }
 }
